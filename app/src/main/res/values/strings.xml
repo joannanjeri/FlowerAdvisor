@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">FlowerAdvisor</string>
+    <string name="find_flowers"> Find Flowers </string>
+    <string-array name="flower_colors">
+        <item>White</item>
+        <item>Red</item>
+        <item>Orange</item>
+    </string-array>
 </resources>

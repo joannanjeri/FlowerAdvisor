@@ -6,18 +6,25 @@
     android:padding="19dp">
 
     <Spinner
+        android:id="@+id/spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp">
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:entries="@array/flower_colors">
     </Spinner>
 
     <Button
+        android:id="@+id/bFindFlowers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp">
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:text="@string/find_flowers">
     </Button>
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     </TextView>
